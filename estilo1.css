@@ -1,7 +1,7 @@
 html { 
     transform: auto;
     transform-origin: auto;
-    background: url(../Imagens/Fundo3.jpg) no-repeat center center fixed; 
+    background: url(Fundo3.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -moz-transform-origin: left center;
@@ -25,14 +25,14 @@ h1 {
     font-weight: 400%;
     @font-face {
         font-family: 'Kaisei HarunoUmi', serif;
-        src: url("fonte/KaiseiHarunoUmi-Regular.ttf");
+        src: url("KaiseiHarunoUmi-Regular.ttf");
     }
 }
 
 p{
     @font-face {
         font-family: 'Kaisei HarunoUmi', serif;
-        src: url("fonte/KaiseiHarunoUmi-Regular.ttf");
+        src: url("KaiseiHarunoUmi-Regular.ttf");
         font-weight: 400;
     }
 }
