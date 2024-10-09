@@ -1,0 +1,138 @@
+html { 
+    transform: auto;
+    transform-origin: auto;
+    background: url(../Imagens/Fundo1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-transform-origin: left center;
+    -moz-transform: scale(1.0);
+    -o-background-size: cover;
+    -ms-transform: scale(1.0);
+    -ms-transform-origin: left center;
+    background-size: cover;
+    zoom: 90%;
+    }
+
+    body {
+        color: white;
+        margin: 0 auto;
+    }
+    
+    h1 {
+        margin-left: 157px;
+        font-size: 4.2em;
+        line-height: 25px;
+        font-weight: 400;
+        @font-face {
+            font-family: 'Kaisei HarunoUmi', serif;
+            src: url("fonte/KaiseiHarunoUmi-Bold.ttf");
+            font-weight: 400%;
+        }
+    }
+    
+    p{
+        @font-face {
+            font-family: 'Kaisei HarunoUmi', serif;
+            src: url("fonte/KaiseiHarunoUmi-Regular.ttf");
+            font-weight: 400;
+        }
+    }
+
+    .retangulo_azul {
+        position: absolute;
+        width: 124px;
+        height: 1100px;
+        left: 0px;
+        top: 0px;
+        opacity: 0.7;
+        z-index: -1;
+        margin-top: -15px;
+    }
+
+    .Icon{
+        margin-left: 20px;
+        width: 83px;
+        height: 90px;
+    }
+    
+    .Icon2{
+        margin-left: 14px;
+        width: 95px;
+        height: 90px;
+    }
+
+    .titulohaha{
+        margin-top: -725px;
+    }
+
+    .caixa1{
+position: absolute;
+width: 565px;
+height: 658px;
+left: 435px;
+top: 144px;
+background: #00517E;
+opacity: 0.65;
+border-radius: 36px;
+    }
+
+    .caixa2{
+position: absolute;
+width: 545px;
+height: 467px;
+left: 947px;
+top: 469px;
+background: #00517E;
+opacity: 0.65;
+border-radius: 36px;
+    }
+
+.p1{
+position: absolute;
+width: 475px;
+height: 463px;
+left: 480px;
+top: 133px;
+font-weight: 700;
+font-size: 3.1em;
+line-height: 100%;
+}
+
+.p2{
+position: absolute;
+width: 484px;
+height: 484px;
+left: 1015px;
+top: 457px;
+font-weight: 700;
+font-size: 3.1em;
+line-height: 100%;
+}
+
+.ol1{
+position: absolute;
+width: 451px;
+height: 480px;
+left: 477px;
+top: 217px;
+font-weight: 700;
+font-size: 2.435em;
+line-height: 145%;
+}
+
+.ol2{
+position: absolute;
+width: 451px;
+height: 490px;
+left: 1015px;
+top: 542px;
+font-weight: 700;
+font-size: 2.435em;
+line-height: 145%;
+}
+
+
+
+
+
+

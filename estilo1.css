@@ -1,0 +1,187 @@
+html { 
+    transform: auto;
+    transform-origin: auto;
+    background: url(../Imagens/Fundo3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-transform-origin: left center;
+    -moz-transform: scale(1.0);
+    -o-background-size: cover;
+    -ms-transform: scale(1.0);
+    -ms-transform-origin: left center;
+    background-size: cover;
+    zoom: 100%;
+    }
+
+body {
+    color: white;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-left: 157px;
+    font-size: 4.2em;
+    line-height: 25px;
+    font-weight: 400%;
+    @font-face {
+        font-family: 'Kaisei HarunoUmi', serif;
+        src: url("fonte/KaiseiHarunoUmi-Regular.ttf");
+    }
+}
+
+p{
+    @font-face {
+        font-family: 'Kaisei HarunoUmi', serif;
+        src: url("fonte/KaiseiHarunoUmi-Regular.ttf");
+        font-weight: 400;
+    }
+}
+
+.retangulo_azul {
+    position: absolute;
+    width: 124px;
+    height: 1100px;
+    left: 0%;
+    top: 0%;
+    opacity: 0.7;
+    z-index: -1;
+    margin-top: -15px;
+}
+
+.caixa1 {
+    position: absolute;
+    width: 552px;
+    height: 560px;
+    left: 385px;
+    top: 50px;
+    z-index: -5;
+    background: #00517e;
+    opacity: 0.65;
+    border-radius: 36px;
+}
+
+.caixa2{
+position: absolute;
+width: 552px;
+height: 560px;
+left: 775px;
+top: 413px;
+
+background: #00517E;
+opacity: 0.65;
+border-radius: 36px;
+}
+
+.caixa3{
+position: absolute;
+width: 545px;
+height: 223px;
+left: 275px;
+top: 693px;
+
+background: #00517E;
+opacity: 0.65;
+border-radius: 36px;
+}
+
+.Icon{
+    margin-left: 20px;
+    width: 83px;
+    height: 90px;
+}
+
+.Icon2{
+    margin-left: 14px;
+    width: 95px;
+    height: 90px;
+}
+
+.titulohaha{
+    margin-top: -725px;
+    z-index: 1;
+}
+
+.Foto1{
+box-sizing: border-box;
+position: absolute;
+width: 435px;
+height: 466px;
+left: 1175px;
+top: 34px;
+z-index: 5;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(Imagens/EstatuaHades.jpg);
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+filter: saturate(0.7);
+opacity: 87%;
+}
+
+
+.p1{
+position: absolute;
+width: 481px;
+height: 336px;
+left: 413px;
+top: 170px;
+text-align: right;
+font-style: normal;
+font-size: 2.75em;
+font-weight: 400;
+line-height: 100%;
+}
+
+.p2{
+position: absolute;
+width: 450px;
+height: 338px;
+left: 835px;
+top: 505px;
+font-style: normal;
+font-weight: 400;
+font-size: 2.9em;
+text-align: right;
+line-height: 100%;
+}
+
+
+.p3{
+position: absolute;
+width: 452px;
+height: 155px;
+left: 335px;
+top: 700px;
+text-align: right;
+font-weight: 400;
+font-size: 2.6em;
+line-height: 100%;
+}
+
+
+.overlay{
+position: absolute;
+width: 1450px;
+height: 1024px;
+left: 0px;
+top: 0px;
+background: rgba(56, 159, 255, 0.26);
+mix-blend-mode: overlay;
+}
+
+.Legenda{
+position: absolute;
+width: 268px;
+height: 35px;
+left: 1325px;
+top: 435px;
+font-weight: 400;
+font-size: 1.9em;
+line-height: 100%;
+text-align: right;
+z-index: 1000000000;
+}
+
+
+
+
+
+
+

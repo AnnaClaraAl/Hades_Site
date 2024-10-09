@@ -1,0 +1,163 @@
+html { 
+    transform: auto;
+    transform-origin: auto;
+    background: url(../Imagens/Fundo4.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-transform-origin: left center;
+    -moz-transform: scale(1.0);
+    -o-background-size: cover;
+    -ms-transform: scale(1.0);
+    -ms-transform-origin: left center;
+    background-size: cover;
+    zoom: 90%;
+    }
+
+    body {
+        color: white;
+        margin: 0 auto;
+    }
+    
+    h1 {
+        margin-left: 157px;
+        font-size: 4.2em;
+        line-height: 25px;
+        font-weight: 400;
+        @font-face {
+            font-family: 'Kaisei HarunoUmi', serif;
+            src: url("fonte/KaiseiHarunoUmi-Bold.ttf");
+            font-weight: 400%;
+        }
+    }
+    
+    p{
+        @font-face {
+            font-family: 'Kaisei HarunoUmi', serif;
+            src: url("fonte/KaiseiHarunoUmi-Regular.ttf");
+            font-weight: 400;
+        }
+    }
+
+    .retangulo_azul {
+        position: absolute;
+        width: 124px;
+        height: 1100px;
+        left: 0px;
+        top: 0px;
+        opacity: 0.7;
+        z-index: -1;
+        margin-top: -15px;
+    }
+
+    .Icon{
+        margin-left: 20px;
+        width: 83px;
+        height: 90px;
+    }
+    
+    .Icon2{
+        margin-left: 14px;
+        width: 95px;
+        height: 90px;
+    }
+
+    .titulohaha{
+        margin-top: -725px;
+    }
+
+    .caixa1{
+position: absolute;
+width: 552px;
+height: 321px;
+left: 250px;
+top: 150px;
+background: #00517E;
+opacity: 0.65;
+border-radius: 36px;
+    }
+
+.caixa2{
+    position: absolute;
+    width: 552px;
+    height: 406px;
+    left: 250px;
+    top: 625px;
+    
+    background: #00517E;
+    opacity: 0.65;
+    border-radius: 36px;
+    
+}
+
+.imagem1{
+position: absolute;
+width: 535px;
+height: 397px;
+left: 720px;
+top: 390px;
+opacity: 0.8;
+border-radius: 36px;
+z-index: -1;
+}
+
+.imagem2{
+box-sizing: border-box;
+position: absolute;
+width: 421px;
+height: 385px;
+left: 1175px;
+top: 100px;
+background: linear-gradient(0deg, rgba(0, 83, 180, 0.2), rgba(0, 83, 180, 0.2));
+mix-blend-mode: hard-light;
+border: 5px solid #005382;
+border-radius: 119px;
+filter: opacity(0.7e);
+filter: brightness(0.6);
+}
+
+.imagem3{
+position: absolute;
+width: 505px;
+height: 365px;
+left: 1100px;
+top: 625px;
+opacity: 0.5;
+border-radius: 38px;
+}
+
+.legenda1{
+position: absolute;
+width: 420px;
+height: 147px;
+left: 1175px;
+top: 200px;
+font-style: normal;
+font-weight: 500;
+font-size: 2.5em;
+line-height: 2.5em;
+text-align: center;
+}
+
+.p1{
+position: absolute;
+width: 506px;
+height: 346px;
+left: 281px;
+top: 157px;
+font-style: normal;
+font-weight: 500;
+font-size: 2.80em;
+line-height: 107%;
+}
+
+.p2{
+position: absolute;
+width: 506px;
+height: 346px;
+left: 281px;
+top: 622px;
+font-style: normal;
+font-weight: 500;
+font-size: 2.80em;
+line-height: 107%;
+}

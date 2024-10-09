@@ -1,0 +1,255 @@
+html { 
+    transform: auto;
+    transform-origin: auto;
+    background: url(../Imagens/Fundo2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-transform-origin: left center;
+    -moz-transform: scale(1.0);
+    -o-background-size: cover;
+    -ms-transform: scale(1.0);
+    -ms-transform-origin: left center;
+    background-size: cover;
+    zoom: 90%;
+    }
+
+    body {
+        color: white;
+        margin: 0 auto;
+    }
+    
+    h1 {
+        margin-left: 157px;
+        font-size: 4.2em;
+        line-height: 25px;
+        font-weight: 400;
+        @font-face {
+            font-family: 'Kaisei HarunoUmi', serif;
+            src: url("fonte/KaiseiHarunoUmi-Bold.ttf");
+            font-weight: 400%;
+        }
+    }
+    
+    p{
+        @font-face {
+            font-family: 'Kaisei HarunoUmi', serif;
+            src: url("fonte/KaiseiHarunoUmi-Regular.ttf");
+            font-weight: 400;
+        }
+    }
+
+    .retangulo_azul {
+        position: absolute;
+        width: 124px;
+        height: 1150px;
+        left: 0px;
+        top: 0px;
+        opacity: 0.7;
+        z-index: -1;
+        margin-top: -15px;
+    }
+
+    .Icon{
+        margin-left: 20px;
+        width: 83px;
+        height: 90px;
+    }
+    
+    .Icon2{
+        margin-left: 14px;
+        width: 95px;
+        height: 90px;
+    }
+
+    .titulohaha{
+        margin-top: -725px;
+    }
+
+.imagem1{
+position: absolute;
+width: 330px;
+height: 497px;
+left: 219px;
+top: 155px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(Imagens/HadesEDemeter.jpg);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+opacity: 90%;
+}
+
+.imagem2{
+position: absolute;
+width: 324px;
+height: 497px;
+left: 598px;
+top: 155px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(image.png);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+opacity: 90%;
+}
+
+.imagem3{
+position: absolute;
+width: 342px;
+height: 497px;
+left: 972px;
+top: 155px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(image.png);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+opacity: 90%;
+}
+
+.imagem4{
+position: absolute;
+width: 344px;
+height: 497px;
+left: 1361px;
+top: 155px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(image.png);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+opacity: 90%;
+}
+
+.imagem5{
+position: absolute;
+width: 335px;
+height: 497px;
+left: 240px;
+top: 535px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(image.png);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+opacity: 90%;
+padding-bottom:  65px;
+}
+
+.imagem6{
+position: absolute;
+width: 325px;
+height: 497px;
+left: 619px;
+top: 535px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(image.png);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+opacity: 90%;
+padding-bottom:  65px;
+}
+
+.imagem7{
+position: absolute;
+width: 337px;
+height: 497px;
+left: 995px;
+top: 535px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(image.png);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+opacity: 90%;
+padding-bottom:  65px;
+}
+
+.imagem8{
+position: absolute;
+width: 341px;
+height: 497px;
+left: 1385px;
+top: 535px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(image.png);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+opacity: 90%;
+padding-bottom:  65px;
+padding-right: 30px;
+}
+
+.legenda1{
+    position: absolute;
+    width: 250px;
+    height: 32px;
+    left: 232px;
+    top: 140px;
+    font-weight: 500;
+    font-size: 1.57em;
+    line-height: 100%;
+    z-index: 1000000000;
+    }
+
+.legenda2{
+position: absolute;
+width: 250px;
+height: 32px;
+left: 615px;
+top: 140px;
+font-weight: 500;
+font-size: 1.57em;
+line-height: 100%;
+z-index: 1000000000;
+}
+
+.legenda3{
+position: absolute;
+width: 250px;
+height: 32px;
+left: 990px;
+top: 140px;
+z-index: 1000000000;
+font-weight: 500;
+font-size: 1.57em;
+line-height: 100%;
+}
+
+.legenda4{
+position: absolute;
+width: 250px;
+height: 32px;
+left: 1378px;
+top: 140px;
+font-weight: 500;
+font-size: 1.57em;
+line-height: 100%;
+z-index: 1000000000;
+}
+
+.legenda5{
+    position: absolute;
+    width: 250px;
+    height: 32px;
+    left: 256px;
+    top: 520px;
+    font-weight: 500;
+    font-size: 1.57em;
+    line-height: 100%;
+    z-index: 1000000000;
+}
+
+.legenda6{
+position: absolute;
+width: 250px;
+height: 32px;
+left: 635px;
+top: 520px;
+font-weight: 500;
+font-size: 1.57em;
+line-height: 100%;
+z-index: 1000000000;
+}
+
+.legenda7{
+position: absolute;
+width: 250px;
+height: 32px;
+left: 1018px;
+top: 520px;
+font-weight: 500;
+font-size: 1.57em;
+line-height: 100%;
+z-index: 1000000000;
+}
+
+.legenda8{
+position: absolute;
+width: 250px;
+height: 32px;
+left: 1400px;
+top: 520px;
+font-weight: 500;
+font-size: 1.57em;
+line-height: 100%;
+z-index: 1000000000;
+}
